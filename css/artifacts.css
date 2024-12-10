@@ -1,0 +1,45 @@
+embed {
+    width: 30vw; 
+    border: 5px solid #333; 
+    box-sizing: border-box; 
+}
+
+main > *:not(:last-child) {/*this part makes a line in between the columbs */
+    border-right: 2px solid #ddd; 
+    padding-right: 1rem; 
+}
+
+
+@media (min-width: 1000px), (max-width:1499px){
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+    }
+}
+
+
+@media (min-width: 1500px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+    }
+}
+
+main{
+    max-width: 2000px;
+    margin:50px;
+}
+
+@media (max-width:999px){
+    main {
+        display: grid;
+        grid-template-columns: 1fr; 
+    }
+    main > *:not(:last-child) {/*this part makes a line in between the columbs */
+        border-right: 0px solid #ddd; 
+        padding-right: 1rem; 
+    }
+    embed {
+        width: 80vw;
+    }
+}

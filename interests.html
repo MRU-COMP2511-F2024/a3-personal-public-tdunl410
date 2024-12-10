@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interests</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Interests</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="artifacts.html">Artifacts</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="interests.html">Interests</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="carousel">
+            
+            <div class="carousel-slide">
+                <!-- Slide 1 -->
+                <div class="slide">
+                    <h2>3D Printing</h2>
+                    <div class="content">
+                        <div class="item">
+                            <img src="img/3dprinting1.jpeg" alt="3d printing example">
+                            <p>I really enjoy 3d printing both functiopnal and artistic things using my 3d printers. This is a tiger that I designed and printed because I love Tigers</p>
+                        </div>
+                        <div class="item">
+                            <p>Here is a video of one of my 3d printers printing something functional. I build the 3D printer and designed many of the parts on it</p>
+                            <video controls>
+                                <source src="img/3dprintingvideo.mov" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="item">
+                            <img src="img/3dprinting3.jpeg" alt="Landscape example">
+                            <p>I spend the time to make my printers print as perfectly as I possibly can, sometimes this takes a lot of test prints, sometimes it takes modification to the printer</p>
+                        </div>
+                        <div class="item">
+                            <p>This is a hotend to a 3D printer that I spent several months beta testing during its developement.</p>
+                            <img src="img/chube1.jpeg" alt="Sharing example">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <h2>Photography</h2>
+                    <div class="content">
+                        <div class="item">
+                            <img src="img/photographymacro.jpeg" alt="macro photography">
+                            <p>I really love how the world looks close up, especially when it rains so I like taking photos like this</p>
+                        </div>
+                        <div class="item">
+                            <p>I also like taking nice looking photos of things that i have 3d printed. This example is a picture of an articulated dragon</p>
+                            <img src="img/photography3dprinting.jpeg" alt="photo of 3d print">
+                        </div>
+                        <div class="item">
+                            <img src="img/photographyFlower.jpeg" alt="flower">
+                            <p>I find close up photos of flowers such as this one to look so beautiful so whenever I see one, I stop to take a picture</p>
+                        </div>
+
+                        <div class="item">
+                            <p>When I go hiking I make sure to take photos of the landscape to remember it. Sometimes they become my wallpaper on my computer</p>
+                            <img src="img/hiking.jpeg" alt="picture of mountain">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <h2>3D modelling and 3d scultping</h2>
+                    <div class="content">
+                        <div class="item">
+                            <img src="img/3dmodeling.jpeg" alt="3d model">
+                            <p>This was a project where a part of a drawer had broken so I replicated what the non broken part would have looked like, and then 3d printed the replica to use in the drawer and fix it rather than throwing the whole thing away</p>
+                        </div>
+                        <div class="item">
+                            <p>This is a toolhead that I designed for my 3d printer. It went through several iterations, with the latest version being this. </p>
+                            <img src="img/3dmodeling2.jpeg" alt="another design">
+                        </div>
+                        <div class="item">
+                            <img src="img/dragon V2.jpg" alt="dragon">
+                            <p>This is a dragon that I 3d sculpted using nomad sculpt on ipad. It took many hours and is now on sale as a digital model</p>
+                        </div>
+
+                        <div class="item">
+                            <p>This is a part I designed to solve a very specific problem I had with a lego thing I was making</p>
+                            <img src="img/lego piece3dmodel.jpg" alt="picture of lego">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carousel-button right" onclick="nextSlide()">&#10095;</button>
+            <button class="carousel-button left" onclick="prevSlide()">&#10094;</button>
+            
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tadhg D. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

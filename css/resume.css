@@ -1,0 +1,10 @@
+.header{
+    align-items: center;
+}
+embed {
+    width: 60vw; /* Set width to 100% of the viewport width */
+    height: 1310px;
+    border: 5px solid #333; /* Add a 5px solid border */
+    box-sizing: border-box; /* Include border in the element's size */
+    align-items: center;
+}

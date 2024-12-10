@@ -1,0 +1,43 @@
+/* Layout for projects */
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.project-content {
+    flex: 1;
+    padding-right: 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.project-image {
+    flex: 1;
+    max-width: 300px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.project-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-image:hover {
+    transform: scale(1.2);
+}
+
+
+main > *:not(:last-child) {/*this part makes a line in between the columbs */
+    border-right: 2px solid #ddd; 
+    padding-right: 1rem; 
+}
+
+main{
+    max-width: 1400px;
+    margin:50px;
+}
+
